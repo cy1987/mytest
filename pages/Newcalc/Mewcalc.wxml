@@ -1,0 +1,42 @@
+<view class="content">
+  <view class="layout-top">
+    <view class="screen">
+      {{question}}
+    </view>
+    <view class="screen2">
+      答案：{{inputNumber}}
+    </view>
+  </view>
+
+  <view class="layout-bottom">
+    <view class="btnGroup">
+      <view class="item4 blue" bindtap="clickBtn" id="{{idj}}">
+      剩余:{{30-questionNum}}
+      时间:{{countDown}}
+      </view>
+      <view class="item4 blue" bindtap="clickBtn" id="{{idc}}">清屏</view>
+      <view class="item4 blue" bindtap="clickBtn" id="{{idb}}">←</view>
+      <view class="item4 blue" bindtap="clickBtn" id="{{idj}}">-</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{id1}}">1</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id2}}">2</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id3}}">3</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{id4}}">4</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id5}}">5</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id6}}">6</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{id7}}">7</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id8}}">8</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id9}}">9</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{id0}}">0</view>
+      <view class="item blue" bindtap="clickBtn" id="{{idd}}">.</view>
+      <view class="item orange" bindtap="nextQuestion" id="{{idok}}">确认</view>
+    </view>
+  </view>
+</view>

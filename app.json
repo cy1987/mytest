@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/Newcalc/Mewcalc",
+    "pages/choiceMain/choiceMain",
+    "pages/history/history",
+    "pages/aboutme/aboutme",
+    "pages/wrongbook/wrongbook",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "答题小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1bd0db",
+    "color": "#dae5e5",
+    "list": [
+      {
+        "text": "学习",
+        "iconPath": "images/7-01.png",
+        "selectedIconPath": "images/6-01.png",
+        "pagePath": "pages/Newcalc/Mewcalc"
+      },
+      {
+        "text": "历史",
+        "iconPath": "images/3-01.png",
+        "selectedIconPath": "images/5-01.png",
+        "pagePath": "pages/history/history"
+      },
+      {
+        "text": "我的",
+        "iconPath": "images/rank.png",
+        "selectedIconPath": "images/rankClick.png",
+        "pagePath": "pages/aboutme/aboutme"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

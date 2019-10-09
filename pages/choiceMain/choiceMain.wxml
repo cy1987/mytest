@@ -1,0 +1,14 @@
+<view class="page"  >
+  <view class='choiceIcon'>
+    <image class='image' src='../../images/8-01.png'></image>
+    <view class='imageText'>选择年级</view>
+  </view>
+
+    <button bindtap="toCalc" data-n='1'>一年级</button>
+    <button bindtap="toCalc" data-n='2'>二年级</button>
+    <button bindtap="toCalc" data-n='3'>三年级</button>
+   
+</view>
+
+
+
